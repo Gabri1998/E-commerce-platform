@@ -1,3 +1,4 @@
+
 # Compiled class file
 *.class
 
@@ -19,7 +20,7 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs
 hs_err_pid*
 replay_pid*
 
@@ -36,6 +37,27 @@ replay_pid*
 # Environment files
 .env
 .env.*
-*.env**/application.yml
-**/target/
-.env
+*.env
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Secrets directory
+secrets/
+*.pem
+*.key
