@@ -1,0 +1,10 @@
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/auth-service/src/main/java/com/ecommerce/auth/config/SecurityConfig.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/auth-service/src/main/java/com/ecommerce/auth/dto/AuthResponse.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/auth-service/src/main/java/com/ecommerce/auth/controller/AuthController.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/auth-service/src/main/java/com/ecommerce/auth/dto/RegisterRequest.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/auth-service/src/main/java/com/ecommerce/auth/repository/UserRepository.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/auth-service/src/main/java/com/ecommerce/auth/service/AuthService.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/auth-service/src/main/java/com/ecommerce/auth/dto/LoginRequest.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/auth-service/src/main/java/com/ecommerce/auth/AuthApplication.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/auth-service/src/main/java/com/ecommerce/auth/model/User.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/auth-service/src/main/java/com/ecommerce/auth/security/JwtService.java
