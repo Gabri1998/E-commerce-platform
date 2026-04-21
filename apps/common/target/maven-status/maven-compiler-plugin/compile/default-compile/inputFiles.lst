@@ -1,0 +1,6 @@
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/common/src/main/java/com/ecommerce/common/exception/GlobalExceptionHandler.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/common/src/main/java/com/ecommerce/common/exception/BusinessException.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/common/src/main/java/com/ecommerce/common/config/CorsConfig.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/common/src/main/java/com/ecommerce/common/exception/ResourceNotFoundException.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/common/src/main/java/com/ecommerce/common/dto/ApiResponse.java
+/home/gabri/E-commerce springboot/E-commerce-platform/apps/common/src/main/java/com/ecommerce/common/dto/ErrorResponse.java

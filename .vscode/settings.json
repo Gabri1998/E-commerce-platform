@@ -1,0 +1,15 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-21-openjdk",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "/usr/lib/jvm/java-21-openjdk",
+            "default": true
+        }
+    ],
+    "maven.executable.preferMavenWrapper": false,
+    "java.import.gradle.enabled": false,
+    "java.import.maven.enabled": true
+}

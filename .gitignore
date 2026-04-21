@@ -22,3 +22,20 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Application secrets and configs with secrets
+**/application.yml
+**/application-*.yml
+!**/application-example.yml
+!**/application-template.yml
+
+# Target directories
+**/target/
+**/out/
+
+# Environment files
+.env
+.env.*
+*.env**/application.yml
+**/target/
+.env
