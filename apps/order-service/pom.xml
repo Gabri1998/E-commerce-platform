@@ -14,7 +14,7 @@
 
     <artifactId>order-service</artifactId>
     <name>Order Service</name>
-    <description>Order Management and Processing Service</description>
+    <description>Order Management with Event Sourcing and Kafka</description>
 
     <dependencies>
         <dependency>
