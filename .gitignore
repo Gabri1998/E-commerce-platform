@@ -38,6 +38,8 @@ replay_pid*
 .env
 .env.*
 *.env
+apps/*/.env
+!apps/*/.env.template
 
 # IDE files
 .idea/
