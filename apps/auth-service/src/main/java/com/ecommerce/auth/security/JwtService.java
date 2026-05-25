@@ -4,11 +4,16 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
+import jakarta.annotation.PostConstruct;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import java.security.Key;
 import java.util.Date;
 import java.util.function.Function;
+import io.jsonwebtoken.io.Decoders;
+import io.jsonwebtoken.security.Keys;   
+
 
 @Service
 public class JwtService {
@@ -20,10 +25,21 @@ public class JwtService {
     private Long expiration;
     
     private Key getSigningKey() {
-        byte[] keyBytes = secret.getBytes();
-        return Keys.hmacShaKeyFor(keyBytes);
+    try {
+        
+        return Keys.hmacShaKeyFor(Decoders.BASE64.decode(secret));
+    } catch (Exception e) {
+        throw new RuntimeException("Invalid JWT secret", e);
     }
-    
+}
+
+
+    @PostConstruct
+    public void debug() {
+        System.out.println("JWT_SECRET loaded: " + (secret != null));
+    }
+          
+        
     public String generateToken(String email) {
         Date now = new Date();
         Date expiryDate = new Date(now.getTime() + expiration);
